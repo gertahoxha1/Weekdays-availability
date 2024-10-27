@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+<body>
+ <!-- <form action="/checkbox_answer" method="POST">
+     // <h4>Sa ka vleren 2+2*2</h4>
+     // <input type="checkbox" name="answer" value="2" id="two">
+    // <label for="two">2</label>
+     // <input type="checkbox" name="answer" value="4" id="four">
+     // <label for="four">4</label>
+    // <input type="checkbox" name="answer" value="6" id="six">
+     // <label for="six">6</label>
+     // <input type="submit" value="Submit">
+ // </form> -->
+
+  <h1>What times are you available?</h1>
+  <h2>Please select all that apply</h2>
+  <form action="/checkbox" method="POST">
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Morning</th>
+          <th>Midday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td><input type="checkbox" name="Monday" value="Morning"></td>
+          <td><input type="checkbox" name="Monday" value="Midday"></td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td><input type="checkbox" name="Tuesday" value="Morning"></td>
+          <td><input type="checkbox" name="Tuesday" value="Midday"></td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td><input type="checkbox" name="Wednesday" value="Morning"></td>
+          <td><input type="checkbox" name="Wednesday" value="Midday"></td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td><input type="checkbox" name="Thursday" value="Morning"></td>
+          <td><input type="checkbox" name="Thursday" value="Midday"></td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td><input type="checkbox" name="Friday" value="Morning"></td>
+          <td><input type="checkbox" name="Friday" value="Midday"></td>
+        </tr>
+      </tbody>
+    </table>
+    <button type="submit">Submit</button>
+  </form>
+  <script src="app.js"></script>
+</body>
+</html>
